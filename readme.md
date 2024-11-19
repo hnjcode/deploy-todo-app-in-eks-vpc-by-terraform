@@ -46,6 +46,7 @@ Check **_modules/eks_** codes for EKS and its dependent on 2 IAM role which  you
 ## Setup the Infrastructure
 
 Run below command in project root directory
+🎯 Alert: You must change the S3 bucket name and ensure such key path is available in your own bucket in **_backent.tf_** and **_k8-resources/backend.tf_** file.
 
 ```$ terraform apply -var-file="prod.tfvars" -auto-approve```
 
